@@ -7,7 +7,7 @@
     "dev": "vite --open",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "vite preview --port 3000",
     "deploy": "npm run build && scp -r -i ~/.ssh/id_ed25519 ./dist/* kyani@around.twilightparadox.com:/web_project_api_full/frontend"
   },
   "dependencies": {
