@@ -1,0 +1,11 @@
+@import url(./blocks/page.css);
+@import url(./blocks/body.css);
+@import url(./blocks/header.css);
+@import url(./blocks/profile.css);
+@import url(./blocks/elements.css);
+@import url(./blocks/image_pop-up.css);
+@import url(./blocks/auth.css);
+@import url(./blocks/tooltip.css);
+@import url(./blocks/pop-up.css);
+@import url(./blocks/footer.css);
+@import url(../public/fonts.css);
