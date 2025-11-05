@@ -1,8 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 
-const requestLogPath = path.join(__dirname, "../logs/request.log");
-const errorLogPath = path.join(__dirname, "../logs/error.log");
+const logsDir = path.join(__dirname, "../logs");
+const requestLogPath = path.join(logsDir, "request.log");
+const errorLogPath = path.join(logsDir, "error.log");
+
+if (!fs.existsSync(logsDir)) {
+  fs.mkdirSync(logsDir, { recursive: true });
+}
 
 const requestLogger = (req, res, next) => {
   const logEntry = {
