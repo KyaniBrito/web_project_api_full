@@ -18,7 +18,7 @@ Around é uma aplicação web full-stack que permite aos usuários criar perfis,
 
 ---
 
-## 🎯 Experiência do Usuário
+## Experiência do Usuário
 
 - **Interface Intuitiva**: Design minimalista inspirado em redes sociais modernas
 - **Feedback Imediato**: Confirmações visuais para todas as interações
@@ -29,7 +29,7 @@ Around é uma aplicação web full-stack que permite aos usuários criar perfis,
 
 ---
 
-## 🛠️ Tecnologias e Técnicas
+## Tecnologias e Técnicas
 
 - **Frontend**
 
@@ -76,7 +76,7 @@ winston - Sistema de logs
 
 ---
 
-## 🚀 Estrutura do Projeto
+## Estrutura do Projeto
 
 web_project_api_full/
 ├── frontend/ # Aplicação React
@@ -100,7 +100,7 @@ web_project_api_full/
 
 ---
 
-## 🔗 Links do Projeto
+## Links do Projeto
 
 🌐 Aplicação Frontend: https://around.twilightparadox.com
 🔌 API Backend: https://api.around.twilightparadox.com
@@ -109,7 +109,7 @@ web_project_api_full/
 
 ---
 
-## 💻 Instalação e Execução Local
+## Instalação e Execução Local
 
 **Pré-requisitos**
 
@@ -158,7 +158,7 @@ Backend: http://localhost:3001
 
 ---
 
-## 📦 Deploy em Produção
+## Deploy em Produção
 
 **Backend**
 
@@ -177,7 +177,8 @@ Configure SSL com Certbot
 
 ---
 
-👨‍💻 Desenvolvedor
+## Desenvolvedor
+
 Kyani Brito
 Desenvolvido como projeto final do bootcamp de Desenvolvimento Web da TripleTen.
 
