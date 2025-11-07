@@ -73,12 +73,9 @@ export default function Main({
         <button
           className="profile__add-button"
           onClick={() => handleOpenPopup(newCardPopup)}
+          aria-label="Adicionar novo card"
         >
-          <img
-            className="profile__add-button-icon"
-            src={iconAddButton}
-            alt="sinal de soma"
-          />
+          <img className="profile__add-button-icon" src={iconAddButton} />
         </button>
       </section>
 
